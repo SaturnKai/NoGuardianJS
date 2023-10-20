@@ -1,0 +1,15 @@
+{
+    "name": "noguardianjs",
+    "version": "1.0.0-beta.1",
+    "author": "SaturnKai",
+    "description": "A transparent proxy that blocks outgoing traffic to GoGuardian.",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "node src/main.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "transparent-proxy": "file:lib/proxy-server"
+    }
+}

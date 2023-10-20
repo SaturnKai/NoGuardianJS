@@ -1,0 +1,36 @@
+{
+  "name": "transparent-proxy",
+  "version": "1.15.0",
+  "description": "Real transparent HTTP-Proxy-Server. Upstream your requests whatever you want!",
+  "main": "ProxyServer.js",
+  "scripts": {
+    "test": "node test.js exit 0",
+    "prepublish": "npm test"
+  },
+  "keywords": [
+    "proxy",
+    "tunnel",
+    "ssl",
+    "http-proxy",
+    "mitm",
+    "pinning",
+    "proxy-authentication",
+    "transparent",
+    "upstream",
+    "server",
+    "squid",
+    "privoxy",
+    "tcp",
+    "intercept",
+    "stealth",
+    "scraping",
+    "crawling"
+  ],
+  "author": "gr3p",
+  "license": "ISC",
+  "homepage": "https://github.com/gr3p1p3/transparent-proxy",
+  "devDependencies": {
+    "node-forge": "^1.3.1",
+    "express": "^4.18.2"
+  }
+}
